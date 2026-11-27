@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+      "id": "group-active",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 340,
+      "height": 310,
+      "label": "Active (2)"
+    },
+    {
+      "id": "p-projectalpha",
+      "type": "file",
+      "file": "Projects/Project Alpha.md",
+      "x": 30,
+      "y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "p-projectdelta",
+      "type": "file",
+      "file": "Projects/Project Delta.md",
+      "x": 30,
+      "y": 180,
+      "width": 280,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "group-waiting",
+      "type": "group",
+      "x": 400,
+      "y": 0,
+      "width": 340,
+      "height": 210,
+      "label": "Waiting (0)"
+    },
+    {
+      "id": "group-blocked",
+      "type": "group",
+      "x": 800,
+      "y": 0,
+      "width": 340,
+      "height": 210,
+      "label": "Blocked (1)"
+    },
+    {
+      "id": "p-projectbeta",
+      "type": "file",
+      "file": "Projects/Project Beta.md",
+      "x": 830,
+      "y": 80,
+      "width": 280,
+      "height": 80,
+      "color": "1"
+    },
+    {
+      "id": "group-done",
+      "type": "group",
+      "x": 1200,
+      "y": 0,
+      "width": 340,
+      "height": 210,
+      "label": "Done (1)"
+    },
+    {
+      "id": "p-projectgamma",
+      "type": "file",
+      "file": "Projects/Project Gamma.md",
+      "x": 1230,
+      "y": 80,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "group-parked",
+      "type": "group",
+      "x": 1600,
+      "y": 0,
+      "width": 340,
+      "height": 210,
+      "label": "Parked (0)"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-projectalpha-projectbeta",
+      "fromNode": "p-projectalpha",
+      "toNode": "p-projectbeta",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e-projectbeta-projectalpha",
+      "fromNode": "p-projectbeta",
+      "toNode": "p-projectalpha",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "e-projectgamma-projectbeta",
+      "fromNode": "p-projectgamma",
+      "toNode": "p-projectbeta",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}
