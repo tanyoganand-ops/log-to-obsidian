@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "-tag:#day -tag:#dashboard -path:Canvas",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#status/active",
+      "color": {
+        "a": 1,
+        "rgb": 4176208
+      }
+    },
+    {
+      "query": "tag:#status/waiting",
+      "color": {
+        "a": 1,
+        "rgb": 15769632
+      }
+    },
+    {
+      "query": "tag:#status/blocked",
+      "color": {
+        "a": 1,
+        "rgb": 15026253
+      }
+    },
+    {
+      "query": "tag:#status/done",
+      "color": {
+        "a": 1,
+        "rgb": 9145227
+      }
+    },
+    {
+      "query": "tag:#status/parked",
+      "color": {
+        "a": 1,
+        "rgb": 9145227
+      }
+    },
+    {
+      "query": "tag:#deliverable",
+      "color": {
+        "a": 1,
+        "rgb": 3900150
+      }
+    },
+    {
+      "query": "tag:#day",
+      "color": {
+        "a": 0.35,
+        "rgb": 10133670
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 7,
+  "linkStrength": 1,
+  "linkDistance": 110,
+  "scale": 1,
+  "close": true
+}
