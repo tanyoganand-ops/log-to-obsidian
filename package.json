@@ -1,0 +1,14 @@
+{
+  "name": "log-to-obsidian",
+  "version": "1.0.0",
+  "description": "Offline tool: plain-text PROGRESS-LOG.md files to a linked Obsidian vault with a dashboard.",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "bin": { "build-vault": "build-vault.js" },
+  "scripts": {
+    "build": "node build-vault.js --config config.json",
+    "watch": "node build-vault.js --config config.json --watch",
+    "test": "node --test test/parser.test.js test/vault.test.js test/watch.test.js test/safety.test.js",
+    "sample": "node scripts/make-sample-input.js && node build-vault.js --config sample-input/config.json"
+  }
+}
